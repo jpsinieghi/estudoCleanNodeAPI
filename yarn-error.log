@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add typescript
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_231\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\Program Files\IDM Computer Solutions\UltraCompare;C:\Users\suporte\AppData\Local\Microsoft\WindowsApps;C:\Users\suporte\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\suporte\AppData\Local\Yarn\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\suporte\AppData\Roaming\npm;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  13.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\suporte\CLEAN-NODE-API\node_modules\class-utils\node_modules\define-property'
+
+npm manifest: 
+  {
+    "name": "clean-node-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --watchAll",
+      "test:staged": "jest"
+    },
+    "standard": {
+      "env": [
+        "jest"
+      ]
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "husky": "^4.2.5",
+      "jest": "^26.2.2",
+      "lint-staged": "^10.2.11",
+      "standard": "^14.3.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
